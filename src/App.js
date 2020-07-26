@@ -21,8 +21,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Switch>
-        <Route path="/discover" component={DiscoverMoviesPage} />
-        <Route path="/discover/:imdb_id" component={DiscoverMoviesPage} />
+        <Route path="/discover/:imdb_id?" component={DiscoverMoviesPage} />
         <Route path="/about" component={AboutPage} />
         <Route path="/" component={HomePage} />
       </Switch>
